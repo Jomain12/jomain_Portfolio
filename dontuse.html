@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <title>Box Model, Float, Clear, Overflow &amp; Positioning</title>
+    <style>
+
+      /* This is a lot to digest, but will make understanding "positioning" much easier next week */
+
+      /* Why did I set all this? */
+      div {
+        margin: 0px;
+        padding: 0px;
+        border: 0px;
+        display: block;
+        /* play with width here to explore inheritance */
+      }
+/* 
+      .small {
+        width: 50px;
+        height: 50px;
+      }
+
+      .medium {
+        width: 100px;
+        height: 100px;
+      }
+
+      .large {
+        width: 200px;
+        height: 200px;
+      }
+
+      .tall {
+        height: 300px;
+      }
+
+      .wide {
+        width: 300px;
+      } */
+
+
+        /* also look at apply tall and wide to a-f */
+        /* why doesn't it work? How do we fix it? */
+        /* id, inline, change everything */
+
+      #outside {
+        /* play with size & overflow */
+        /* what is a clearfix? */
+        background: maroon;
+      }
+
+      #first {
+        /* where does my size come from? */
+        background: black;
+        color: white;
+      }
+
+      #last {
+        background: darkslategray;
+      }
+
+    /* Play with float and clear */
+    /* What about float on several in a row ? add clear? What happens? */
+    /* add margin & padding - how does it change the render? */
+    /* what about position? relative? Absolute? fixed? */
+    /* WHAT THE HECK IS Z-INDEX? */
+    /* I've had enough, I want to hide */
+      #a {
+        background: red;
+        display: block;
+        width: 100px;
+        height: 100px;
+      }
+
+      #b {
+        background: orange;
+        display: block;
+        width: 100px;
+        height: 100px;
+      }
+
+      #c {
+        background: yellow;
+        display: block;
+        width: 100px;
+        height: 100px;
+      }
+
+      #d {
+        background: green;
+        display: block;
+        width: 100px;
+        height: 100px;
+      }
+      
+      #e {
+        background: blue;
+        display: block;
+        width: 100px;
+        height: 100px;
+      }
+
+      #f {
+        background: purple;
+        display: block;
+        width: 100px;
+        height: 100px;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div id="outside">
+
+      <div id="first">First</div>
+
+      <div id="a">A</div>
+      <div id="b">B</div>
+      <div id="c">C</div>
+      <div id="d">D</div>
+      <div id="e">E</div>
+      <div id="f">F</div>
+
+      <!-- one sad, empty div -->
+      <!-- how can we make it feel better? TALL & WIDE -->
+      <!-- ...but why can't I see it? -->
+      <div></div>
+
+      <div id="last">Last</div>
+      
+    </div>
+
+  </body>
+</html>

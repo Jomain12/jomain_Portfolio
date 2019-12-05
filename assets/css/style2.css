@@ -1,0 +1,86 @@
+.name {
+    background-color: teal;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    color: white;
+    padding: 40px 40px 24px 40px;
+    display: inline;  
+    margin-left: 555px;
+    font-size: 30px;
+    position: relative; top: 12px;
+}
+
+nav {
+    margin-left: 1200px;
+    display: inline;
+    position: relative; top: -15px; left: -55px;
+    word-spacing: 25px;
+    font-family:'Georgia', Times, 'Times New Roman', serif;
+    font-size: 18px;
+}
+
+h1 {
+    color: teal;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-size: 26px;
+    font-weight: bold   ;
+}
+
+section {
+    display: block;
+    background-color: white;
+    padding: 50px;
+    margin-top: 100px;
+    justify-content: center;
+    width: auto;
+    position: relative;
+    top: -40px;
+    line-height: 23px;
+}
+
+body {
+    overflow: hidden;
+}
+
+.content {
+    margin-left: auto;
+    width: 820px;
+    margin-right: auto;
+    height: auto;
+}
+input {
+    width: 100%;
+}
+
+input[name=message] {
+        height: 200px;
+}
+
+header {
+    background-color: white;
+    margin: -10px;
+    padding: 17px 0px 0px 0px;
+    position: relative;
+    width: 2030px;
+}
+
+button {
+    background-color: teal;
+    color: white;
+    padding: 10px 20px 10px 20px;
+}
+
+.smallfoot {
+    border-top: 8px solid #4aaaa5;
+    position: fixed;
+    left: 0px;
+    bottom: 28px;
+    width: 100%;
+}
+
+.bigfoot {
+    border-top: 48px solid #666666;
+    position: fixed;
+    left: 0px;
+    bottom: -20px;
+    width: 100%;
+}
