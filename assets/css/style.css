@@ -34,9 +34,19 @@ h1 {
     font-weight: bold   ;
 }
 
-img {
+#jomainpic {
     float: left;
-    padding: 0px 15px 15px 0px;
+    padding:15px 5px 15px 0px;
+    -webkit-transform:rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+img {
+    height: 150px;
+    width: 150px;
 }
 
 nav {
@@ -66,18 +76,19 @@ p {
     border-top: 8px solid #4aaaa5;
     position: fixed;
     left: 0px;
-    bottom: 44px;
+    bottom: 26px;
     width: 100%;
+    z-index: 0.5;
 }
 
 .bigfoot {
     border-top: 64px solid #666666;
     position: fixed;
     left: 0px;
-    bottom: -20px;
+    bottom: -38px;
     width: 100%;
 }
 
-body {
+/* body {
     overflow: hidden;
-}
+} */
